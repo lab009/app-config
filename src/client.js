@@ -1,2 +1,2 @@
 // resolve object in webpack
-export default __CONFIG__;
+export default __CONFIG__

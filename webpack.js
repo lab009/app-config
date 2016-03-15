@@ -14,7 +14,7 @@ AppConfigPlugin.prototype.apply = function(compiler) {
     nmf.plugin("before-resolve", function(result, callback) {
       if(!result) return callback();
       if(result.request === "app-config") {
-        result.request = "app-config/client";
+        result.request = "app-config/lib/client";
       }
       return callback(null, result);
     });
