@@ -2,16 +2,29 @@
 
 > Cascading configuration for web application
 
-### Installation Package
+## Install
 
 ```
-npm install lodash.merge 
+npm install app-config --save
 ```
 
-### Usage
+## Usage
+
+Loads configuration files from a `config` folder in your project root.
+
+- `default` is always loaded if it exists
+- If you specify `NODE_ENV=production` then both `production` and `default` are loaded, with `production` taking precedence.
+- Any valid JS extension can be used for config - JS, json, etc.
+  - To load another extension, register it before you require this module
+
+```js
+import config from 'app-config'
+```
 
 For working in browser add AppConfigPlugin in webpack config.
 ```js
+import AppConfigPlugin from 'app-config/webpack'
+
 var webpackConfig = {
   plugins: [
     new AppConfigPlugin(),
@@ -19,6 +32,6 @@ var webpackConfig = {
 }
 ```
 
-### Package
+## Package
 
 * lodash.merge
