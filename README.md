@@ -17,7 +17,7 @@ https://github.com/Graf009/app-config.git
 Loads configuration files from a `config` folder in your project root.
 
 - `default` is always loaded if it exists
-- If you specify `CONFIG=production` then both `production` and `default` are loaded, with `production` taking precedence.
+- If you specify `NODE_ENV=production` then both `production` and `default` are loaded, with `production` taking precedence.
 - Any valid JS extension can be used for config - JS, json, etc.
   - To load another extension, register it before you require this module
 
