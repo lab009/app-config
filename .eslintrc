@@ -1,17 +1,5 @@
 {
-  "parser": "babel-eslint",
-  "extends": "rackt",
-  "env": {
-    "browser": true,
-    "node": true,
-    "es6": true
-  },
-  "ecmaFeatures": {
-    "modules": true
-  },
-  "rules": {
-    "semi": [2, "never"]
-  },
+  "extends": "@eagle/eslint-config-eagle",
   "globals": {
     "__CONFIG__": true
   }
