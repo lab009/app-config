@@ -3,7 +3,6 @@ import merge from 'lodash.merge'
 
 const env = process.env.CONFIG
 
-let defaultConfigPath
 let envConfigPath
 let defaultConfig
 let envConfig = {}
@@ -16,7 +15,7 @@ if (!cfgDir) {
   cfgDir = `${path.resolve(cfgDir)}/`
 }
 
-defaultConfigPath = path.join(cfgDir, 'default')
+const defaultConfigPath = path.join(cfgDir, 'default')
 if (env) {
   envConfigPath = path.join(cfgDir, env)
 }
