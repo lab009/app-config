@@ -13,7 +13,7 @@ AppConfigPlugin.prototype.apply = function(compiler) {
           __CONFIG__: JSON.stringify(require(result.request))
         }));
 
-        result.request += '/lib/client';
+        result.request += '/dist/client';
       }
       return callback(null, result);
     });

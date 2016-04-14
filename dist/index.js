@@ -16,7 +16,6 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var env = process.env.CONFIG;
 
-var defaultConfigPath = void 0;
 var envConfigPath = void 0;
 var defaultConfig = void 0;
 var envConfig = {};
@@ -29,7 +28,7 @@ if (!cfgDir) {
   cfgDir = _path2.default.resolve(cfgDir) + '/';
 }
 
-defaultConfigPath = _path2.default.join(cfgDir, 'default');
+var defaultConfigPath = _path2.default.join(cfgDir, 'default');
 if (env) {
   envConfigPath = _path2.default.join(cfgDir, env);
 }
