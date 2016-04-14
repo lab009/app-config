@@ -14,7 +14,7 @@ var _lodash2 = _interopRequireDefault(_lodash);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-var env = process.env.CONFIG;
+var env = process.env.NODE_ENV;
 
 var envConfigPath = void 0;
 var defaultConfig = void 0;
