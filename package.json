@@ -10,18 +10,19 @@
   "license": "MIT",
   "main": "dist/index.js",
   "scripts": {
-    "preversion": "npm run build",
-    "prebuild": "npm run lint",
-    "build": "npm run clean && npm run compile",
-    "compile": "babel src --out-dir dist",
+    "preversion": "npm run clean && npm run check && npm run build",
     "clean": "rimraf dist",
-    "lint": "eslint src"
+    "lint": "eslint src",
+    "test": "ava",
+    "check": "npm run lint && npm run test",
+    "build": "babel src --out-dir dist"
   },
   "dependencies": {
     "lodash.merge": "4.4.0"
   },
   "devDependencies": {
     "@eagle/eslint-config-eagle": "1.2.0",
+    "ava": "0.14.0",
     "babel-cli": "6.8.0",
     "babel-eslint": "6.0.4",
     "babel-plugin-add-module-exports": "0.2.1",
