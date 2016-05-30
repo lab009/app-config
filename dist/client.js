@@ -5,4 +5,4 @@ Object.defineProperty(exports, "__esModule", {
 });
 // resolve object in webpack
 exports.default = __CONFIG__;
-module.exports = exports['default'];
+module.exports = exports["default"];
