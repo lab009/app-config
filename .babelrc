@@ -1,9 +1,14 @@
 {
-  "presets": [
-    "es2015",
-    "stage-0"
-  ],
-  "plugins": [
-    "add-module-exports"
-  ]
+  "presets": ["stage-0"],
+
+  "env": {
+    "commonjs": {
+      "presets": ["es2015-loose"],
+      "plugins": ["add-module-exports"]
+    },
+
+    "es": {
+      "presets": ["es2015-loose-native-modules"]
+    }
+  }
 }
