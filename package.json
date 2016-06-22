@@ -12,7 +12,8 @@
   "jsnext:main": "es/index.js",
   "files": [
     "dist",
-    "es"
+    "es",
+    "webpack.js"
   ],
   "scripts": {
     "preversion": "npm run clean && npm run check && npm run build",
