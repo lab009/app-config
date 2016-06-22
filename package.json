@@ -1,6 +1,6 @@
 {
   "name": "@eagle/app-config",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Cascading configuration for web application",
   "author": "Oleg Orlov <mail@orlovoleg.com>",
   "repository": {
