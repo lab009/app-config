@@ -1,0 +1,7 @@
+### Ignore build files ###
+.idea/**
+node_modules/**
+build/**
+dist/**
+es/**
+*.fjs
