@@ -29,7 +29,7 @@
     "lodash.merge": "4.6.0"
   },
   "devDependencies": {
-    "@eagle/babel-preset-eagle": "1.0.1",
+    "@eagle/babel-preset-eagle": "1.0.4",
     "@eagle/eslint-config-eagle": "1.4.2",
     "ava": "0.16.0",
     "babel-cli": "6.18.0",
