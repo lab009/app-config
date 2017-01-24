@@ -31,6 +31,7 @@
   "devDependencies": {
     "@lab009/babel-preset-lab009": "2.0.0",
     "@lab009/eslint-config-lab009": "2.1.0",
+    "@types/rimraf": "0.0.28",
     "ava": "0.17.0",
     "babel-cli": "6.22.2",
     "babel-plugin-add-module-exports": "0.2.1",
@@ -39,7 +40,8 @@
     "eslint": "3.14.0",
     "eslint-plugin-import": "2.2.0",
     "eslint-plugin-jsx-a11y": "3.0.2",
-    "eslint-plugin-react": "6.9.0"
+    "eslint-plugin-react": "6.9.0",
+    "rimraf": "2.5.4"
   },
   "ava": {
     "require": [
