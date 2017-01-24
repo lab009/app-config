@@ -1,5 +1,5 @@
 {
-  "extends": "@eagle/eslint-config-eagle",
+  "extends": "@lab009/eslint-config-lab009",
   "globals": {
     "__CONFIG__": true
   }

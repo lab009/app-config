@@ -1,16 +1,16 @@
-# @eagle/app-config
+# @lab009/app-config
 
-> Cascading configuration for web application
+> Configuration for universal web application
 
 ## Install
 
 ```
-npm install --save @eagle/app-config
+npm install --save @lab009/app-config
 ```
 
 ## Repository
 
-https://github.com/Graf009/app-config.git
+https://github.com/lab009/app-config.git
 
 ## Usage
 
@@ -22,13 +22,13 @@ Loads configuration files from a `config` folder in your project root.
   - To load another extension, register it before you require this module
 
 ```js
-import config from '@eagle/app-config'
+import config from '@lab009/app-config'
 ```
 
 For working in browser add AppConfigPlugin in webpack config.
 
 ```js
-import AppConfigPlugin from '@eagle/app-config/webpack'
+import AppConfigPlugin from '@lab009/app-config/webpack'
 
 var webpackConfig = {
   plugins: [
