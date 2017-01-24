@@ -1,6 +1,6 @@
 {
   "name": "@lab009/app-config",
-  "version": "1.3.0",
+  "version": "2.0.0",
   "description": "Configuration for universal web application",
   "author": "Oleg Orlov <mail@orlovoleg.com>",
   "repository": {
